@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<odoo>
+    <act_window id="action_pos_rule_1"
+        name="Rule Type 1"
+        res_model="association.rules.type1"
+        view_mode="tree,form" />
+    <act_window id="action_pos_rule_2"
+        name="Rule Type 2"
+        res_model="association.rules.type2"
+        view_mode="tree,form" />
+    <act_window id="action_pos_view_rule"
+        name="View Rule"
+        res_model="association.rule.show"
+        view_mode="tree,form" />
+    <act_window id="action_pos_setting_rule"
+        name="Config Rule"
+        res_model="association.rule.config"
+        view_mode="tree,form" />
+    <template id="assets_backend" name="association_rule_asset" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/pos_rule_scheduler/static/css/association_rule.css"/>
+            <script type="text/javascript" src="/pos_rule_scheduler/static/js/association_rule.js"/>
+        </xpath>
+    </template>
+
+    <menuitem id="main_association_menu" name="Association rules" />
+
+    <menuitem id="association_menu" name="Association rules"
+        parent="main_association_menu" />
+
+    <record id="action_association_rule" model="ir.actions.client">
+        <field name="name">Association Rule</field>
+        <field name="tag">association_rule</field>
+    </record>
+
+
+    <!--<menuitem id="association_rule_menu" name="Start Mining" action="action_association_rule" parent="association_menu"/>-->
+
+    <menuitem id="pos_rule_type_1"
+        name="Rule Type 1"
+        sequence="10"
+        action="action_pos_rule_1"
+        parent="association_menu"
+    />
+    <menuitem id="pos_rule_type_2"
+        name="Rule Type 2"
+        sequence="11"
+        action="action_pos_rule_2"
+        parent="association_menu"
+    />
+
+    <menuitem id="pos_view_rule"
+        name="View Rule"
+        sequence="12"
+        action="action_pos_view_rule"
+        parent="association_menu"
+    />
+
+    <menuitem id="pos_config_rule_menu"
+        name="Setting"
+        sequence="10"
+        parent="main_association_menu"
+    />
+    <menuitem id="pos_config_rule"
+        name="Config Rule"
+        sequence="10"
+        action="action_pos_setting_rule"
+        parent="pos_config_rule_menu"
+    />
+
+    <record id="pos_view_rule_form" model="ir.ui.view">
+            <field name="name">Association Rule</field>
+            <field name="model">association.rule.show</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="rule_type"/>
+                            </group>
+                            <group>
+                                <field name="age_type"/>
+                                <field name="gender"/>
+                            </group>
+                            <group string="Product Base">
+                                <field name="product_base_ids" nolabel="1">
+                                    <tree>
+                                        <field name="name"/>
+                                        <!--<field name="list_price"/>-->
+                                    </tree>
+                                </field>
+                            </group>
+                            <group string="Product Recommend">
+                                <field name="product_add_ids" nolabel="1">
+                                    <tree>
+                                        <field name="name"/>
+                                        <!--<field name="list_price"/>-->
+                                    </tree>
+                                </field>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+    </record>
+
+    <record id="pos_setting_rule_form" model="ir.ui.view">
+        <field name="name">Rule Setting</field>
+        <field name="model">association.rule.config</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button string="Run Manually" name="run_rule_manually" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options="{&quot;terminology&quot;: &quot;archive&quot;}"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="rule_type"/>
+                            <field name="min_supp"/>
+                            <field name="min_conf"/>
+                        </group>
+                        <group>
+                            <field name="interval_number"/>
+                            <field name="interval_type"/>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

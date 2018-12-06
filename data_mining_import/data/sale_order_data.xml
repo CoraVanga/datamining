@@ -1,0 +1,926 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="dm_sale_oder_10100" model="sale.order">
+<field name="partner_id" ref="dm_partner_1"/>
+</record>
+<record id="dm_sale_oder_10101" model="sale.order">
+<field name="partner_id" ref="dm_partner_2"/>
+</record>
+<record id="dm_sale_oder_10102" model="sale.order">
+<field name="partner_id" ref="dm_partner_3"/>
+</record>
+<record id="dm_sale_oder_10103" model="sale.order">
+<field name="partner_id" ref="dm_partner_4"/>
+</record>
+<record id="dm_sale_oder_10104" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10105" model="sale.order">
+<field name="partner_id" ref="dm_partner_6"/>
+</record>
+<record id="dm_sale_oder_10106" model="sale.order">
+<field name="partner_id" ref="dm_partner_7"/>
+</record>
+<record id="dm_sale_oder_10107" model="sale.order">
+<field name="partner_id" ref="dm_partner_8"/>
+</record>
+<record id="dm_sale_oder_10108" model="sale.order">
+<field name="partner_id" ref="dm_partner_9"/>
+</record>
+<record id="dm_sale_oder_10109" model="sale.order">
+<field name="partner_id" ref="dm_partner_10"/>
+</record>
+<record id="dm_sale_oder_10110" model="sale.order">
+<field name="partner_id" ref="dm_partner_11"/>
+</record>
+<record id="dm_sale_oder_10111" model="sale.order">
+<field name="partner_id" ref="dm_partner_12"/>
+</record>
+<record id="dm_sale_oder_10112" model="sale.order">
+<field name="partner_id" ref="dm_partner_13"/>
+</record>
+<record id="dm_sale_oder_10113" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10114" model="sale.order">
+<field name="partner_id" ref="dm_partner_15"/>
+</record>
+<record id="dm_sale_oder_10115" model="sale.order">
+<field name="partner_id" ref="dm_partner_16"/>
+</record>
+<record id="dm_sale_oder_10116" model="sale.order">
+<field name="partner_id" ref="dm_partner_17"/>
+</record>
+<record id="dm_sale_oder_10117" model="sale.order">
+<field name="partner_id" ref="dm_partner_18"/>
+</record>
+<record id="dm_sale_oder_10118" model="sale.order">
+<field name="partner_id" ref="dm_partner_19"/>
+</record>
+<record id="dm_sale_oder_10119" model="sale.order">
+<field name="partner_id" ref="dm_partner_20"/>
+</record>
+<record id="dm_sale_oder_10120" model="sale.order">
+<field name="partner_id" ref="dm_partner_21"/>
+</record>
+<record id="dm_sale_oder_10121" model="sale.order">
+<field name="partner_id" ref="dm_partner_22"/>
+</record>
+<record id="dm_sale_oder_10122" model="sale.order">
+<field name="partner_id" ref="dm_partner_23"/>
+</record>
+<record id="dm_sale_oder_10123" model="sale.order">
+<field name="partner_id" ref="dm_partner_24"/>
+</record>
+<record id="dm_sale_oder_10124" model="sale.order">
+<field name="partner_id" ref="dm_partner_25"/>
+</record>
+<record id="dm_sale_oder_10125" model="sale.order">
+<field name="partner_id" ref="dm_partner_21"/>
+</record>
+<record id="dm_sale_oder_10126" model="sale.order">
+<field name="partner_id" ref="dm_partner_26"/>
+</record>
+<record id="dm_sale_oder_10127" model="sale.order">
+<field name="partner_id" ref="dm_partner_27"/>
+</record>
+<record id="dm_sale_oder_10128" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10129" model="sale.order">
+<field name="partner_id" ref="dm_partner_28"/>
+</record>
+<record id="dm_sale_oder_10130" model="sale.order">
+<field name="partner_id" ref="dm_partner_29"/>
+</record>
+<record id="dm_sale_oder_10131" model="sale.order">
+<field name="partner_id" ref="dm_partner_30"/>
+</record>
+<record id="dm_sale_oder_10133" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10134" model="sale.order">
+<field name="partner_id" ref="dm_partner_31"/>
+</record>
+<record id="dm_sale_oder_10135" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10136" model="sale.order">
+<field name="partner_id" ref="dm_partner_32"/>
+</record>
+<record id="dm_sale_oder_10137" model="sale.order">
+<field name="partner_id" ref="dm_partner_22"/>
+</record>
+<record id="dm_sale_oder_10139" model="sale.order">
+<field name="partner_id" ref="dm_partner_33"/>
+</record>
+<record id="dm_sale_oder_10140" model="sale.order">
+<field name="partner_id" ref="dm_partner_34"/>
+</record>
+<record id="dm_sale_oder_10141" model="sale.order">
+<field name="partner_id" ref="dm_partner_35"/>
+</record>
+<record id="dm_sale_oder_10142" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10143" model="sale.order">
+<field name="partner_id" ref="dm_partner_36"/>
+</record>
+<record id="dm_sale_oder_10144" model="sale.order">
+<field name="partner_id" ref="dm_partner_17"/>
+</record>
+<record id="dm_sale_oder_10145" model="sale.order">
+<field name="partner_id" ref="dm_partner_37"/>
+</record>
+<record id="dm_sale_oder_10146" model="sale.order">
+<field name="partner_id" ref="dm_partner_30"/>
+</record>
+<record id="dm_sale_oder_10147" model="sale.order">
+<field name="partner_id" ref="dm_partner_38"/>
+</record>
+<record id="dm_sale_oder_10148" model="sale.order">
+<field name="partner_id" ref="dm_partner_39"/>
+</record>
+<record id="dm_sale_oder_10149" model="sale.order">
+<field name="partner_id" ref="dm_partner_40"/>
+</record>
+<record id="dm_sale_oder_10150" model="sale.order">
+<field name="partner_id" ref="dm_partner_18"/>
+</record>
+<record id="dm_sale_oder_10151" model="sale.order">
+<field name="partner_id" ref="dm_partner_41"/>
+</record>
+<record id="dm_sale_oder_10152" model="sale.order">
+<field name="partner_id" ref="dm_partner_42"/>
+</record>
+<record id="dm_sale_oder_10153" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10154" model="sale.order">
+<field name="partner_id" ref="dm_partner_43"/>
+</record>
+<record id="dm_sale_oder_10155" model="sale.order">
+<field name="partner_id" ref="dm_partner_44"/>
+</record>
+<record id="dm_sale_oder_10156" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10158" model="sale.order">
+<field name="partner_id" ref="dm_partner_4"/>
+</record>
+<record id="dm_sale_oder_10159" model="sale.order">
+<field name="partner_id" ref="dm_partner_45"/>
+</record>
+<record id="dm_sale_oder_10160" model="sale.order">
+<field name="partner_id" ref="dm_partner_46"/>
+</record>
+<record id="dm_sale_oder_10161" model="sale.order">
+<field name="partner_id" ref="dm_partner_47"/>
+</record>
+<record id="dm_sale_oder_10162" model="sale.order">
+<field name="partner_id" ref="dm_partner_45"/>
+</record>
+<record id="dm_sale_oder_10163" model="sale.order">
+<field name="partner_id" ref="dm_partner_16"/>
+</record>
+<record id="dm_sale_oder_10164" model="sale.order">
+<field name="partner_id" ref="dm_partner_48"/>
+</record>
+<record id="dm_sale_oder_10165" model="sale.order">
+<field name="partner_id" ref="dm_partner_18"/>
+</record>
+<record id="dm_sale_oder_10166" model="sale.order">
+<field name="partner_id" ref="dm_partner_49"/>
+</record>
+<record id="dm_sale_oder_10167" model="sale.order">
+<field name="partner_id" ref="dm_partner_50"/>
+</record>
+<record id="dm_sale_oder_10168" model="sale.order">
+<field name="partner_id" ref="dm_partner_34"/>
+</record>
+<record id="dm_sale_oder_10169" model="sale.order">
+<field name="partner_id" ref="dm_partner_39"/>
+</record>
+<record id="dm_sale_oder_10170" model="sale.order">
+<field name="partner_id" ref="dm_partner_48"/>
+</record>
+<record id="dm_sale_oder_10171" model="sale.order">
+<field name="partner_id" ref="dm_partner_51"/>
+</record>
+<record id="dm_sale_oder_10172" model="sale.order">
+<field name="partner_id" ref="dm_partner_52"/>
+</record>
+<record id="dm_sale_oder_10173" model="sale.order">
+<field name="partner_id" ref="dm_partner_7"/>
+</record>
+<record id="dm_sale_oder_10174" model="sale.order">
+<field name="partner_id" ref="dm_partner_42"/>
+</record>
+<record id="dm_sale_oder_10175" model="sale.order">
+<field name="partner_id" ref="dm_partner_28"/>
+</record>
+<record id="dm_sale_oder_10176" model="sale.order">
+<field name="partner_id" ref="dm_partner_53"/>
+</record>
+<record id="dm_sale_oder_10177" model="sale.order">
+<field name="partner_id" ref="dm_partner_54"/>
+</record>
+<record id="dm_sale_oder_10178" model="sale.order">
+<field name="partner_id" ref="dm_partner_32"/>
+</record>
+<record id="dm_sale_oder_10180" model="sale.order">
+<field name="partner_id" ref="dm_partner_55"/>
+</record>
+<record id="dm_sale_oder_10181" model="sale.order">
+<field name="partner_id" ref="dm_partner_56"/>
+</record>
+<record id="dm_sale_oder_10182" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10183" model="sale.order">
+<field name="partner_id" ref="dm_partner_57"/>
+</record>
+<record id="dm_sale_oder_10184" model="sale.order">
+<field name="partner_id" ref="dm_partner_58"/>
+</record>
+<record id="dm_sale_oder_10185" model="sale.order">
+<field name="partner_id" ref="dm_partner_36"/>
+</record>
+<record id="dm_sale_oder_10186" model="sale.order">
+<field name="partner_id" ref="dm_partner_59"/>
+</record>
+<record id="dm_sale_oder_10188" model="sale.order">
+<field name="partner_id" ref="dm_partner_56"/>
+</record>
+<record id="dm_sale_oder_10189" model="sale.order">
+<field name="partner_id" ref="dm_partner_37"/>
+</record>
+<record id="dm_sale_oder_10190" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10191" model="sale.order">
+<field name="partner_id" ref="dm_partner_60"/>
+</record>
+<record id="dm_sale_oder_10192" model="sale.order">
+<field name="partner_id" ref="dm_partner_1"/>
+</record>
+<record id="dm_sale_oder_10193" model="sale.order">
+<field name="partner_id" ref="dm_partner_61"/>
+</record>
+<record id="dm_sale_oder_10194" model="sale.order">
+<field name="partner_id" ref="dm_partner_62"/>
+</record>
+<record id="dm_sale_oder_10195" model="sale.order">
+<field name="partner_id" ref="dm_partner_63"/>
+</record>
+<record id="dm_sale_oder_10196" model="sale.order">
+<field name="partner_id" ref="dm_partner_64"/>
+</record>
+<record id="dm_sale_oder_10197" model="sale.order">
+<field name="partner_id" ref="dm_partner_19"/>
+</record>
+<record id="dm_sale_oder_10198" model="sale.order">
+<field name="partner_id" ref="dm_partner_9"/>
+</record>
+<record id="dm_sale_oder_10199" model="sale.order">
+<field name="partner_id" ref="dm_partner_65"/>
+</record>
+<record id="dm_sale_oder_10201" model="sale.order">
+<field name="partner_id" ref="dm_partner_12"/>
+</record>
+<record id="dm_sale_oder_10203" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10204" model="sale.order">
+<field name="partner_id" ref="dm_partner_27"/>
+</record>
+<record id="dm_sale_oder_10205" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10206" model="sale.order">
+<field name="partner_id" ref="dm_partner_66"/>
+</record>
+<record id="dm_sale_oder_10207" model="sale.order">
+<field name="partner_id" ref="dm_partner_67"/>
+</record>
+<record id="dm_sale_oder_10208" model="sale.order">
+<field name="partner_id" ref="dm_partner_62"/>
+</record>
+<record id="dm_sale_oder_10209" model="sale.order">
+<field name="partner_id" ref="dm_partner_46"/>
+</record>
+<record id="dm_sale_oder_10210" model="sale.order">
+<field name="partner_id" ref="dm_partner_68"/>
+</record>
+<record id="dm_sale_oder_10211" model="sale.order">
+<field name="partner_id" ref="dm_partner_69"/>
+</record>
+<record id="dm_sale_oder_10212" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10213" model="sale.order">
+<field name="partner_id" ref="dm_partner_59"/>
+</record>
+<record id="dm_sale_oder_10214" model="sale.order">
+<field name="partner_id" ref="dm_partner_26"/>
+</record>
+<record id="dm_sale_oder_10215" model="sale.order">
+<field name="partner_id" ref="dm_partner_65"/>
+</record>
+<record id="dm_sale_oder_10216" model="sale.order">
+<field name="partner_id" ref="dm_partner_70"/>
+</record>
+<record id="dm_sale_oder_10217" model="sale.order">
+<field name="partner_id" ref="dm_partner_71"/>
+</record>
+<record id="dm_sale_oder_10219" model="sale.order">
+<field name="partner_id" ref="dm_partner_40"/>
+</record>
+<record id="dm_sale_oder_10220" model="sale.order">
+<field name="partner_id" ref="dm_partner_72"/>
+</record>
+<record id="dm_sale_oder_10221" model="sale.order">
+<field name="partner_id" ref="dm_partner_73"/>
+</record>
+<record id="dm_sale_oder_10222" model="sale.order">
+<field name="partner_id" ref="dm_partner_74"/>
+</record>
+<record id="dm_sale_oder_10223" model="sale.order">
+<field name="partner_id" ref="dm_partner_21"/>
+</record>
+<record id="dm_sale_oder_10224" model="sale.order">
+<field name="partner_id" ref="dm_partner_55"/>
+</record>
+<record id="dm_sale_oder_10225" model="sale.order">
+<field name="partner_id" ref="dm_partner_75"/>
+</record>
+<record id="dm_sale_oder_10226" model="sale.order">
+<field name="partner_id" ref="dm_partner_74"/>
+</record>
+<record id="dm_sale_oder_10227" model="sale.order">
+<field name="partner_id" ref="dm_partner_62"/>
+</record>
+<record id="dm_sale_oder_10228" model="sale.order">
+<field name="partner_id" ref="dm_partner_76"/>
+</record>
+<record id="dm_sale_oder_10229" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10230" model="sale.order">
+<field name="partner_id" ref="dm_partner_2"/>
+</record>
+<record id="dm_sale_oder_10231" model="sale.order">
+<field name="partner_id" ref="dm_partner_54"/>
+</record>
+<record id="dm_sale_oder_10232" model="sale.order">
+<field name="partner_id" ref="dm_partner_77"/>
+</record>
+<record id="dm_sale_oder_10233" model="sale.order">
+<field name="partner_id" ref="dm_partner_78"/>
+</record>
+<record id="dm_sale_oder_10235" model="sale.order">
+<field name="partner_id" ref="dm_partner_79"/>
+</record>
+<record id="dm_sale_oder_10236" model="sale.order">
+<field name="partner_id" ref="dm_partner_10"/>
+</record>
+<record id="dm_sale_oder_10237" model="sale.order">
+<field name="partner_id" ref="dm_partner_3"/>
+</record>
+<record id="dm_sale_oder_10238" model="sale.order">
+<field name="partner_id" ref="dm_partner_6"/>
+</record>
+<record id="dm_sale_oder_10239" model="sale.order">
+<field name="partner_id" ref="dm_partner_41"/>
+</record>
+<record id="dm_sale_oder_10240" model="sale.order">
+<field name="partner_id" ref="dm_partner_68"/>
+</record>
+<record id="dm_sale_oder_10241" model="sale.order">
+<field name="partner_id" ref="dm_partner_80"/>
+</record>
+<record id="dm_sale_oder_10242" model="sale.order">
+<field name="partner_id" ref="dm_partner_81"/>
+</record>
+<record id="dm_sale_oder_10243" model="sale.order">
+<field name="partner_id" ref="dm_partner_67"/>
+</record>
+<record id="dm_sale_oder_10244" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10245" model="sale.order">
+<field name="partner_id" ref="dm_partner_64"/>
+</record>
+<record id="dm_sale_oder_10246" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10247" model="sale.order">
+<field name="partner_id" ref="dm_partner_35"/>
+</record>
+<record id="dm_sale_oder_10248" model="sale.order">
+<field name="partner_id" ref="dm_partner_8"/>
+</record>
+<record id="dm_sale_oder_10249" model="sale.order">
+<field name="partner_id" ref="dm_partner_76"/>
+</record>
+<record id="dm_sale_oder_10250" model="sale.order">
+<field name="partner_id" ref="dm_partner_82"/>
+</record>
+<record id="dm_sale_oder_10251" model="sale.order">
+<field name="partner_id" ref="dm_partner_78"/>
+</record>
+<record id="dm_sale_oder_10252" model="sale.order">
+<field name="partner_id" ref="dm_partner_69"/>
+</record>
+<record id="dm_sale_oder_10253" model="sale.order">
+<field name="partner_id" ref="dm_partner_83"/>
+</record>
+<record id="dm_sale_oder_10255" model="sale.order">
+<field name="partner_id" ref="dm_partner_80"/>
+</record>
+<record id="dm_sale_oder_10256" model="sale.order">
+<field name="partner_id" ref="dm_partner_6"/>
+</record>
+<record id="dm_sale_oder_10257" model="sale.order">
+<field name="partner_id" ref="dm_partner_82"/>
+</record>
+<record id="dm_sale_oder_10258" model="sale.order">
+<field name="partner_id" ref="dm_partner_84"/>
+</record>
+<record id="dm_sale_oder_10259" model="sale.order">
+<field name="partner_id" ref="dm_partner_71"/>
+</record>
+<record id="dm_sale_oder_10261" model="sale.order">
+<field name="partner_id" ref="dm_partner_51"/>
+</record>
+<record id="dm_sale_oder_10262" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10263" model="sale.order">
+<field name="partner_id" ref="dm_partner_52"/>
+</record>
+<record id="dm_sale_oder_10264" model="sale.order">
+<field name="partner_id" ref="dm_partner_85"/>
+</record>
+<record id="dm_sale_oder_10265" model="sale.order">
+<field name="partner_id" ref="dm_partner_61"/>
+</record>
+<record id="dm_sale_oder_10266" model="sale.order">
+<field name="partner_id" ref="dm_partner_53"/>
+</record>
+<record id="dm_sale_oder_10267" model="sale.order">
+<field name="partner_id" ref="dm_partner_27"/>
+</record>
+<record id="dm_sale_oder_10269" model="sale.order">
+<field name="partner_id" ref="dm_partner_20"/>
+</record>
+<record id="dm_sale_oder_10270" model="sale.order">
+<field name="partner_id" ref="dm_partner_33"/>
+</record>
+<record id="dm_sale_oder_10271" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10272" model="sale.order">
+<field name="partner_id" ref="dm_partner_86"/>
+</record>
+<record id="dm_sale_oder_10273" model="sale.order">
+<field name="partner_id" ref="dm_partner_73"/>
+</record>
+<record id="dm_sale_oder_10274" model="sale.order">
+<field name="partner_id" ref="dm_partner_38"/>
+</record>
+<record id="dm_sale_oder_10275" model="sale.order">
+<field name="partner_id" ref="dm_partner_87"/>
+</record>
+<record id="dm_sale_oder_10276" model="sale.order">
+<field name="partner_id" ref="dm_partner_88"/>
+</record>
+<record id="dm_sale_oder_10277" model="sale.order">
+<field name="partner_id" ref="dm_partner_18"/>
+</record>
+<record id="dm_sale_oder_10278" model="sale.order">
+<field name="partner_id" ref="dm_partner_25"/>
+</record>
+<record id="dm_sale_oder_10279" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10280" model="sale.order">
+<field name="partner_id" ref="dm_partner_89"/>
+</record>
+<record id="dm_sale_oder_10281" model="sale.order">
+<field name="partner_id" ref="dm_partner_86"/>
+</record>
+<record id="dm_sale_oder_10282" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10283" model="sale.order">
+<field name="partner_id" ref="dm_partner_79"/>
+</record>
+<record id="dm_sale_oder_10284" model="sale.order">
+<field name="partner_id" ref="dm_partner_90"/>
+</record>
+<record id="dm_sale_oder_10285" model="sale.order">
+<field name="partner_id" ref="dm_partner_91"/>
+</record>
+<record id="dm_sale_oder_10286" model="sale.order">
+<field name="partner_id" ref="dm_partner_15"/>
+</record>
+<record id="dm_sale_oder_10287" model="sale.order">
+<field name="partner_id" ref="dm_partner_75"/>
+</record>
+<record id="dm_sale_oder_10288" model="sale.order">
+<field name="partner_id" ref="dm_partner_71"/>
+</record>
+<record id="dm_sale_oder_10289" model="sale.order">
+<field name="partner_id" ref="dm_partner_56"/>
+</record>
+<record id="dm_sale_oder_10290" model="sale.order">
+<field name="partner_id" ref="dm_partner_29"/>
+</record>
+<record id="dm_sale_oder_10291" model="sale.order">
+<field name="partner_id" ref="dm_partner_50"/>
+</record>
+<record id="dm_sale_oder_10292" model="sale.order">
+<field name="partner_id" ref="dm_partner_8"/>
+</record>
+<record id="dm_sale_oder_10293" model="sale.order">
+<field name="partner_id" ref="dm_partner_89"/>
+</record>
+<record id="dm_sale_oder_10294" model="sale.order">
+<field name="partner_id" ref="dm_partner_88"/>
+</record>
+<record id="dm_sale_oder_10295" model="sale.order">
+<field name="partner_id" ref="dm_partner_85"/>
+</record>
+<record id="dm_sale_oder_10296" model="sale.order">
+<field name="partner_id" ref="dm_partner_92"/>
+</record>
+<record id="dm_sale_oder_10297" model="sale.order">
+<field name="partner_id" ref="dm_partner_72"/>
+</record>
+<record id="dm_sale_oder_10298" model="sale.order">
+<field name="partner_id" ref="dm_partner_24"/>
+</record>
+<record id="dm_sale_oder_10299" model="sale.order">
+<field name="partner_id" ref="dm_partner_44"/>
+</record>
+<record id="dm_sale_oder_10300" model="sale.order">
+<field name="partner_id" ref="dm_partner_2"/>
+</record>
+<record id="dm_sale_oder_10301" model="sale.order">
+<field name="partner_id" ref="dm_partner_90"/>
+</record>
+<record id="dm_sale_oder_10302" model="sale.order">
+<field name="partner_id" ref="dm_partner_83"/>
+</record>
+<record id="dm_sale_oder_10303" model="sale.order">
+<field name="partner_id" ref="dm_partner_58"/>
+</record>
+<record id="dm_sale_oder_10304" model="sale.order">
+<field name="partner_id" ref="dm_partner_70"/>
+</record>
+<record id="dm_sale_oder_10305" model="sale.order">
+<field name="partner_id" ref="dm_partner_91"/>
+</record>
+<record id="dm_sale_oder_10306" model="sale.order">
+<field name="partner_id" ref="dm_partner_11"/>
+</record>
+<record id="dm_sale_oder_10307" model="sale.order">
+<field name="partner_id" ref="dm_partner_57"/>
+</record>
+<record id="dm_sale_oder_10308" model="sale.order">
+<field name="partner_id" ref="dm_partner_63"/>
+</record>
+<record id="dm_sale_oder_10309" model="sale.order">
+<field name="partner_id" ref="dm_partner_4"/>
+</record>
+<record id="dm_sale_oder_10310" model="sale.order">
+<field name="partner_id" ref="dm_partner_60"/>
+</record>
+<record id="dm_sale_oder_10311" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10312" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10313" model="sale.order">
+<field name="partner_id" ref="dm_partner_66"/>
+</record>
+<record id="dm_sale_oder_10314" model="sale.order">
+<field name="partner_id" ref="dm_partner_47"/>
+</record>
+<record id="dm_sale_oder_10315" model="sale.order">
+<field name="partner_id" ref="dm_partner_87"/>
+</record>
+<record id="dm_sale_oder_10316" model="sale.order">
+<field name="partner_id" ref="dm_partner_77"/>
+</record>
+<record id="dm_sale_oder_10317" model="sale.order">
+<field name="partner_id" ref="dm_partner_34"/>
+</record>
+<record id="dm_sale_oder_10318" model="sale.order">
+<field name="partner_id" ref="dm_partner_86"/>
+</record>
+<record id="dm_sale_oder_10319" model="sale.order">
+<field name="partner_id" ref="dm_partner_81"/>
+</record>
+<record id="dm_sale_oder_10320" model="sale.order">
+<field name="partner_id" ref="dm_partner_13"/>
+</record>
+<record id="dm_sale_oder_10321" model="sale.order">
+<field name="partner_id" ref="dm_partner_49"/>
+</record>
+<record id="dm_sale_oder_10322" model="sale.order">
+<field name="partner_id" ref="dm_partner_1"/>
+</record>
+<record id="dm_sale_oder_10323" model="sale.order">
+<field name="partner_id" ref="dm_partner_2"/>
+</record>
+<record id="dm_sale_oder_10324" model="sale.order">
+<field name="partner_id" ref="dm_partner_3"/>
+</record>
+<record id="dm_sale_oder_10325" model="sale.order">
+<field name="partner_id" ref="dm_partner_4"/>
+</record>
+<record id="dm_sale_oder_10326" model="sale.order">
+<field name="partner_id" ref="dm_partner_13"/>
+</record>
+<record id="dm_sale_oder_10327" model="sale.order">
+<field name="partner_id" ref="dm_partner_6"/>
+</record>
+<record id="dm_sale_oder_10328" model="sale.order">
+<field name="partner_id" ref="dm_partner_7"/>
+</record>
+<record id="dm_sale_oder_10329" model="sale.order">
+<field name="partner_id" ref="dm_partner_8"/>
+</record>
+<record id="dm_sale_oder_10330" model="sale.order">
+<field name="partner_id" ref="dm_partner_9"/>
+</record>
+<record id="dm_sale_oder_10331" model="sale.order">
+<field name="partner_id" ref="dm_partner_10"/>
+</record>
+<record id="dm_sale_oder_10332" model="sale.order">
+<field name="partner_id" ref="dm_partner_11"/>
+</record>
+<record id="dm_sale_oder_10333" model="sale.order">
+<field name="partner_id" ref="dm_partner_12"/>
+</record>
+<record id="dm_sale_oder_10334" model="sale.order">
+<field name="partner_id" ref="dm_partner_13"/>
+</record>
+<record id="dm_sale_oder_10335" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10336" model="sale.order">
+<field name="partner_id" ref="dm_partner_15"/>
+</record>
+<record id="dm_sale_oder_10337" model="sale.order">
+<field name="partner_id" ref="dm_partner_16"/>
+</record>
+<record id="dm_sale_oder_10338" model="sale.order">
+<field name="partner_id" ref="dm_partner_17"/>
+</record>
+<record id="dm_sale_oder_10339" model="sale.order">
+<field name="partner_id" ref="dm_partner_84"/>
+</record>
+<record id="dm_sale_oder_10340" model="sale.order">
+<field name="partner_id" ref="dm_partner_19"/>
+</record>
+<record id="dm_sale_oder_10341" model="sale.order">
+<field name="partner_id" ref="dm_partner_20"/>
+</record>
+<record id="dm_sale_oder_10342" model="sale.order">
+<field name="partner_id" ref="dm_partner_21"/>
+</record>
+<record id="dm_sale_oder_10343" model="sale.order">
+<field name="partner_id" ref="dm_partner_22"/>
+</record>
+<record id="dm_sale_oder_10344" model="sale.order">
+<field name="partner_id" ref="dm_partner_23"/>
+</record>
+<record id="dm_sale_oder_10345" model="sale.order">
+<field name="partner_id" ref="dm_partner_24"/>
+</record>
+<record id="dm_sale_oder_10346" model="sale.order">
+<field name="partner_id" ref="dm_partner_25"/>
+</record>
+<record id="dm_sale_oder_10347" model="sale.order">
+<field name="partner_id" ref="dm_partner_21"/>
+</record>
+<record id="dm_sale_oder_10348" model="sale.order">
+<field name="partner_id" ref="dm_partner_26"/>
+</record>
+<record id="dm_sale_oder_10349" model="sale.order">
+<field name="partner_id" ref="dm_partner_27"/>
+</record>
+<record id="dm_sale_oder_10350" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10351" model="sale.order">
+<field name="partner_id" ref="dm_partner_28"/>
+</record>
+<record id="dm_sale_oder_10352" model="sale.order">
+<field name="partner_id" ref="dm_partner_29"/>
+</record>
+<record id="dm_sale_oder_10353" model="sale.order">
+<field name="partner_id" ref="dm_partner_30"/>
+</record>
+<record id="dm_sale_oder_10355" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10356" model="sale.order">
+<field name="partner_id" ref="dm_partner_31"/>
+</record>
+<record id="dm_sale_oder_10357" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10358" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10359" model="sale.order">
+<field name="partner_id" ref="dm_partner_22"/>
+</record>
+<record id="dm_sale_oder_10361" model="sale.order">
+<field name="partner_id" ref="dm_partner_33"/>
+</record>
+<record id="dm_sale_oder_10362" model="sale.order">
+<field name="partner_id" ref="dm_partner_34"/>
+</record>
+<record id="dm_sale_oder_10363" model="sale.order">
+<field name="partner_id" ref="dm_partner_35"/>
+</record>
+<record id="dm_sale_oder_10364" model="sale.order">
+<field name="partner_id" ref="dm_partner_23"/>
+</record>
+<record id="dm_sale_oder_10365" model="sale.order">
+<field name="partner_id" ref="dm_partner_36"/>
+</record>
+<record id="dm_sale_oder_10366" model="sale.order">
+<field name="partner_id" ref="dm_partner_17"/>
+</record>
+<record id="dm_sale_oder_10367" model="sale.order">
+<field name="partner_id" ref="dm_partner_37"/>
+</record>
+<record id="dm_sale_oder_10368" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10369" model="sale.order">
+<field name="partner_id" ref="dm_partner_38"/>
+</record>
+<record id="dm_sale_oder_10370" model="sale.order">
+<field name="partner_id" ref="dm_partner_39"/>
+</record>
+<record id="dm_sale_oder_10371" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10372" model="sale.order">
+<field name="partner_id" ref="dm_partner_84"/>
+</record>
+<record id="dm_sale_oder_10373" model="sale.order">
+<field name="partner_id" ref="dm_partner_41"/>
+</record>
+<record id="dm_sale_oder_10374" model="sale.order">
+<field name="partner_id" ref="dm_partner_42"/>
+</record>
+<record id="dm_sale_oder_10375" model="sale.order">
+<field name="partner_id" ref="dm_partner_87"/>
+</record>
+<record id="dm_sale_oder_10376" model="sale.order">
+<field name="partner_id" ref="dm_partner_43"/>
+</record>
+<record id="dm_sale_oder_10377" model="sale.order">
+<field name="partner_id" ref="dm_partner_44"/>
+</record>
+<record id="dm_sale_oder_10378" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10379" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10380" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10381" model="sale.order">
+<field name="partner_id" ref="dm_partner_45"/>
+</record>
+<record id="dm_sale_oder_10382" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10383" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10384" model="sale.order">
+<field name="partner_id" ref="dm_partner_45"/>
+</record>
+<record id="dm_sale_oder_10385" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10386" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10387" model="sale.order">
+<field name="partner_id" ref="dm_partner_18"/>
+</record>
+<record id="dm_sale_oder_10388" model="sale.order">
+<field name="partner_id" ref="dm_partner_49"/>
+</record>
+<record id="dm_sale_oder_10389" model="sale.order">
+<field name="partner_id" ref="dm_partner_50"/>
+</record>
+<record id="dm_sale_oder_10390" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10391" model="sale.order">
+<field name="partner_id" ref="dm_partner_39"/>
+</record>
+<record id="dm_sale_oder_10392" model="sale.order">
+<field name="partner_id" ref="dm_partner_48"/>
+</record>
+<record id="dm_sale_oder_10394" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10395" model="sale.order">
+<field name="partner_id" ref="dm_partner_31"/>
+</record>
+<record id="dm_sale_oder_10396" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10397" model="sale.order">
+<field name="partner_id" ref="dm_partner_32"/>
+</record>
+<record id="dm_sale_oder_10398" model="sale.order">
+<field name="partner_id" ref="dm_partner_22"/>
+</record>
+<record id="dm_sale_oder_10400" model="sale.order">
+<field name="partner_id" ref="dm_partner_82"/>
+</record>
+<record id="dm_sale_oder_10401" model="sale.order">
+<field name="partner_id" ref="dm_partner_78"/>
+</record>
+<record id="dm_sale_oder_10402" model="sale.order">
+<field name="partner_id" ref="dm_partner_69"/>
+</record>
+<record id="dm_sale_oder_10403" model="sale.order">
+<field name="partner_id" ref="dm_partner_83"/>
+</record>
+<record id="dm_sale_oder_10405" model="sale.order">
+<field name="partner_id" ref="dm_partner_80"/>
+</record>
+<record id="dm_sale_oder_10406" model="sale.order">
+<field name="partner_id" ref="dm_partner_6"/>
+</record>
+<record id="dm_sale_oder_10407" model="sale.order">
+<field name="partner_id" ref="dm_partner_82"/>
+</record>
+<record id="dm_sale_oder_10408" model="sale.order">
+<field name="partner_id" ref="dm_partner_84"/>
+</record>
+<record id="dm_sale_oder_10409" model="sale.order">
+<field name="partner_id" ref="dm_partner_71"/>
+</record>
+<record id="dm_sale_oder_10411" model="sale.order">
+<field name="partner_id" ref="dm_partner_51"/>
+</record>
+<record id="dm_sale_oder_10412" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10413" model="sale.order">
+<field name="partner_id" ref="dm_partner_52"/>
+</record>
+<record id="dm_sale_oder_10414" model="sale.order">
+<field name="partner_id" ref="dm_partner_85"/>
+</record>
+<record id="dm_sale_oder_10415" model="sale.order">
+<field name="partner_id" ref="dm_partner_61"/>
+</record>
+<record id="dm_sale_oder_10416" model="sale.order">
+<field name="partner_id" ref="dm_partner_53"/>
+</record>
+<record id="dm_sale_oder_10417" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10419" model="sale.order">
+<field name="partner_id" ref="dm_partner_20"/>
+</record>
+<record id="dm_sale_oder_10420" model="sale.order">
+<field name="partner_id" ref="dm_partner_33"/>
+</record>
+<record id="dm_sale_oder_10421" model="sale.order">
+<field name="partner_id" ref="dm_partner_14"/>
+</record>
+<record id="dm_sale_oder_10422" model="sale.order">
+<field name="partner_id" ref="dm_partner_86"/>
+</record>
+<record id="dm_sale_oder_10423" model="sale.order">
+<field name="partner_id" ref="dm_partner_73"/>
+</record>
+<record id="dm_sale_oder_10424" model="sale.order">
+<field name="partner_id" ref="dm_partner_5"/>
+</record>
+<record id="dm_sale_oder_10425" model="sale.order">
+<field name="partner_id" ref="dm_partner_87"/>
+</record>
+
+
+</odoo>

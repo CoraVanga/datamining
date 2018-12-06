@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="S18_1749" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1749 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1749 Vintage Cars.jpg"/>
+</record>
+<record id="S18_2248" model="product.product">
+<field name="list_price">67.8</field>
+<field name="name">S18_2248 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2248 Vintage Cars.jpg"/>
+</record>
+<record id="S18_4409" model="product.product">
+<field name="list_price">86.51</field>
+<field name="name">S18_4409 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4409 Vintage Cars.jpg"/>
+</record>
+<record id="S24_3969" model="product.product">
+<field name="list_price">34.47</field>
+<field name="name">S24_3969 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3969 Vintage Cars.jpg"/>
+</record>
+<record id="S18_2325" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_2325 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2325 Vintage Cars.jpg"/>
+</record>
+<record id="S18_2795" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_2795 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2795 Vintage Cars.jpg"/>
+</record>
+<record id="S24_1937" model="product.product">
+<field name="list_price">31.2</field>
+<field name="name">S24_1937 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1937 Vintage Cars.jpg"/>
+</record>
+<record id="S24_2022" model="product.product">
+<field name="list_price">53.76</field>
+<field name="name">S24_2022 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2022 Vintage Cars.jpg"/>
+</record>
+<record id="S18_1342" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1342 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1342 Vintage Cars.jpg"/>
+</record>
+<record id="S18_1367" model="product.product">
+<field name="list_price">50.14</field>
+<field name="name">S18_1367 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1367 Vintage Cars.jpg"/>
+</record>
+<record id="S10_1949" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S10_1949 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_1949 Classic Cars.jpg"/>
+</record>
+<record id="S10_4962" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S10_4962 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_4962 Classic Cars.jpg"/>
+</record>
+<record id="S12_1666" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_1666 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_1666 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_1097" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1097 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1097 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_2432" model="product.product">
+<field name="list_price">54.09</field>
+<field name="name">S18_2432 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2432 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_2949" model="product.product">
+<field name="list_price">83.07</field>
+<field name="name">S18_2949 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2949 Vintage Cars.jpg"/>
+</record>
+<record id="S18_2957" model="product.product">
+<field name="list_price">57.46</field>
+<field name="name">S18_2957 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2957 Vintage Cars.jpg"/>
+</record>
+<record id="S18_3136" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3136 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3136 Vintage Cars.jpg"/>
+</record>
+<record id="S18_3320" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3320 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3320 Vintage Cars.jpg"/>
+</record>
+<record id="S18_4600" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_4600 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4600 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_4668" model="product.product">
+<field name="list_price">47.29</field>
+<field name="name">S18_4668 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4668 Vintage Cars.jpg"/>
+</record>
+<record id="S24_2300" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_2300 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2300 Trucks and Buses.jpg"/>
+</record>
+<record id="S24_4258" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_4258 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_4258 Vintage Cars.jpg"/>
+</record>
+<record id="S32_1268" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S32_1268 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_1268 Trucks and Buses.jpg"/>
+</record>
+<record id="S32_3522" model="product.product">
+<field name="list_price">75.63</field>
+<field name="name">S32_3522 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_3522 Trucks and Buses.jpg"/>
+</record>
+<record id="S700_2824" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_2824 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_2824 Classic Cars.jpg"/>
+</record>
+<record id="S12_3148" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_3148 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_3148 Classic Cars.jpg"/>
+</record>
+<record id="S12_4473" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_4473 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_4473 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_2238" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_2238 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2238 Classic Cars.jpg"/>
+</record>
+<record id="S18_2319" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_2319 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2319 Trucks and Buses.jpg"/>
+</record>
+<record id="S18_3232" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3232 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3232 Classic Cars.jpg"/>
+</record>
+<record id="S18_4027" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_4027 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4027 Classic Cars.jpg"/>
+</record>
+<record id="S24_1444" model="product.product">
+<field name="list_price">55.49</field>
+<field name="name">S24_1444 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1444 Classic Cars.jpg"/>
+</record>
+<record id="S24_2840" model="product.product">
+<field name="list_price">39.6</field>
+<field name="name">S24_2840 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2840 Classic Cars.jpg"/>
+</record>
+<record id="S24_4048" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_4048 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_4048 Classic Cars.jpg"/>
+</record>
+<record id="S32_2509" model="product.product">
+<field name="list_price">47.62</field>
+<field name="name">S32_2509 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_2509 Trucks and Buses.jpg"/>
+</record>
+<record id="S32_3207" model="product.product">
+<field name="list_price">65.87</field>
+<field name="name">S32_3207 Trains</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_3207 Trains.jpg"/>
+</record>
+<record id="S50_1392" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S50_1392 Trucks and Buses</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S50_1392 Trucks and Buses.jpg"/>
+</record>
+<record id="S50_1514" model="product.product">
+<field name="list_price">53.31</field>
+<field name="name">S50_1514 Trains</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S50_1514 Trains.jpg"/>
+</record>
+<record id="S10_4757" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S10_4757 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_4757 Classic Cars.jpg"/>
+</record>
+<record id="S12_1108" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_1108 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_1108 Classic Cars.jpg"/>
+</record>
+<record id="S12_3891" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_3891 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_3891 Classic Cars.jpg"/>
+</record>
+<record id="S18_3140" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3140 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3140 Vintage Cars.jpg"/>
+</record>
+<record id="S18_3259" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3259 Trains</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3259 Trains.jpg"/>
+</record>
+<record id="S18_4522" model="product.product">
+<field name="list_price">82.5</field>
+<field name="name">S18_4522 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4522 Vintage Cars.jpg"/>
+</record>
+<record id="S24_2011" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_2011 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2011 Ships.jpg"/>
+</record>
+<record id="S24_3151" model="product.product">
+<field name="list_price">72.58</field>
+<field name="name">S24_3151 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3151 Vintage Cars.jpg"/>
+</record>
+<record id="S24_3816" model="product.product">
+<field name="list_price">79.67</field>
+<field name="name">S24_3816 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3816 Vintage Cars.jpg"/>
+</record>
+<record id="S700_1138" model="product.product">
+<field name="list_price">70.67</field>
+<field name="name">S700_1138 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_1138 Ships.jpg"/>
+</record>
+<record id="S700_1938" model="product.product">
+<field name="list_price">70.15</field>
+<field name="name">S700_1938 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_1938 Ships.jpg"/>
+</record>
+<record id="S700_2610" model="product.product">
+<field name="list_price">65.77</field>
+<field name="name">S700_2610 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_2610 Ships.jpg"/>
+</record>
+<record id="S700_3505" model="product.product">
+<field name="list_price">81.14</field>
+<field name="name">S700_3505 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_3505 Ships.jpg"/>
+</record>
+<record id="S700_3962" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_3962 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_3962 Ships.jpg"/>
+</record>
+<record id="S72_3212" model="product.product">
+<field name="list_price">56.78</field>
+<field name="name">S72_3212 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S72_3212 Ships.jpg"/>
+</record>
+<record id="S18_1662" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1662 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1662 Planes.jpg"/>
+</record>
+<record id="S18_2581" model="product.product">
+<field name="list_price">90.39</field>
+<field name="name">S18_2581 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2581 Planes.jpg"/>
+</record>
+<record id="S18_3029" model="product.product">
+<field name="list_price">83.44</field>
+<field name="name">S18_3029 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3029 Ships.jpg"/>
+</record>
+<record id="S18_3856" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3856 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3856 Vintage Cars.jpg"/>
+</record>
+<record id="S24_1785" model="product.product">
+<field name="list_price">88.63</field>
+<field name="name">S24_1785 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1785 Planes.jpg"/>
+</record>
+<record id="S24_2841" model="product.product">
+<field name="list_price">74.68</field>
+<field name="name">S24_2841 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2841 Planes.jpg"/>
+</record>
+<record id="S24_3420" model="product.product">
+<field name="list_price">52.6</field>
+<field name="name">S24_3420 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3420 Vintage Cars.jpg"/>
+</record>
+<record id="S24_3949" model="product.product">
+<field name="list_price">64.83</field>
+<field name="name">S24_3949 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3949 Planes.jpg"/>
+</record>
+<record id="S24_4278" model="product.product">
+<field name="list_price">63.76</field>
+<field name="name">S24_4278 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_4278 Planes.jpg"/>
+</record>
+<record id="S32_4289" model="product.product">
+<field name="list_price">72.92</field>
+<field name="name">S32_4289 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_4289 Vintage Cars.jpg"/>
+</record>
+<record id="S50_1341" model="product.product">
+<field name="list_price">40.15</field>
+<field name="name">S50_1341 Vintage Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S50_1341 Vintage Cars.jpg"/>
+</record>
+<record id="S700_1691" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_1691 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_1691 Planes.jpg"/>
+</record>
+<record id="S700_2047" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_2047 Ships</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_2047 Ships.jpg"/>
+</record>
+<record id="S700_2466" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_2466 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_2466 Planes.jpg"/>
+</record>
+<record id="S700_2834" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S700_2834 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_2834 Planes.jpg"/>
+</record>
+<record id="S700_3167" model="product.product">
+<field name="list_price">74.4</field>
+<field name="name">S700_3167 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_3167 Planes.jpg"/>
+</record>
+<record id="S700_4002" model="product.product">
+<field name="list_price">61.44</field>
+<field name="name">S700_4002 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S700_4002 Planes.jpg"/>
+</record>
+<record id="S72_1253" model="product.product">
+<field name="list_price">52.64</field>
+<field name="name">S72_1253 Planes</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S72_1253 Planes.jpg"/>
+</record>
+<record id="S10_1678" model="product.product">
+<field name="list_price">95.7</field>
+<field name="name">S10_1678 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_1678 Motorcycles.jpg"/>
+</record>
+<record id="S10_2016" model="product.product">
+<field name="list_price">99.91</field>
+<field name="name">S10_2016 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_2016 Motorcycles.jpg"/>
+</record>
+<record id="S10_4698" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S10_4698 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S10_4698 Motorcycles.jpg"/>
+</record>
+<record id="S12_2823" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_2823 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_2823 Motorcycles.jpg"/>
+</record>
+<record id="S18_2625" model="product.product">
+<field name="list_price">70.87</field>
+<field name="name">S18_2625 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2625 Motorcycles.jpg"/>
+</record>
+<record id="S24_1578" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_1578 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1578 Motorcycles.jpg"/>
+</record>
+<record id="S24_2000" model="product.product">
+<field name="list_price">83.03</field>
+<field name="name">S24_2000 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2000 Motorcycles.jpg"/>
+</record>
+<record id="S32_1374" model="product.product">
+<field name="list_price">92.9</field>
+<field name="name">S32_1374 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_1374 Motorcycles.jpg"/>
+</record>
+<record id="S12_1099" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_1099 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_1099 Classic Cars.jpg"/>
+</record>
+<record id="S12_3380" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_3380 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_3380 Classic Cars.jpg"/>
+</record>
+<record id="S12_3990" model="product.product">
+<field name="list_price">89.38</field>
+<field name="name">S12_3990 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_3990 Classic Cars.jpg"/>
+</record>
+<record id="S12_4675" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S12_4675 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S12_4675 Classic Cars.jpg"/>
+</record>
+<record id="S18_1889" model="product.product">
+<field name="list_price">82.39</field>
+<field name="name">S18_1889 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1889 Classic Cars.jpg"/>
+</record>
+<record id="S18_3278" model="product.product">
+<field name="list_price">68.35</field>
+<field name="name">S18_3278 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3278 Classic Cars.jpg"/>
+</record>
+<record id="S18_3482" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3482 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3482 Classic Cars.jpg"/>
+</record>
+<record id="S18_3782" model="product.product">
+<field name="list_price">67.77</field>
+<field name="name">S18_3782 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3782 Motorcycles.jpg"/>
+</record>
+<record id="S18_4721" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_4721 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4721 Classic Cars.jpg"/>
+</record>
+<record id="S24_2360" model="product.product">
+<field name="list_price">58.87</field>
+<field name="name">S24_2360 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2360 Motorcycles.jpg"/>
+</record>
+<record id="S24_3371" model="product.product">
+<field name="list_price">63.07</field>
+<field name="name">S24_3371 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3371 Classic Cars.jpg"/>
+</record>
+<record id="S24_3856" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_3856 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3856 Classic Cars.jpg"/>
+</record>
+<record id="S24_4620" model="product.product">
+<field name="list_price">68.71</field>
+<field name="name">S24_4620 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_4620 Classic Cars.jpg"/>
+</record>
+<record id="S32_2206" model="product.product">
+<field name="list_price">43.45</field>
+<field name="name">S32_2206 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_2206 Motorcycles.jpg"/>
+</record>
+<record id="S32_4485" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S32_4485 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S32_4485 Motorcycles.jpg"/>
+</record>
+<record id="S50_4713" model="product.product">
+<field name="list_price">82.99</field>
+<field name="name">S50_4713 Motorcycles</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S50_4713 Motorcycles.jpg"/>
+</record>
+<record id="S18_1129" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1129 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1129 Classic Cars.jpg"/>
+</record>
+<record id="S18_1984" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1984 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1984 Classic Cars.jpg"/>
+</record>
+<record id="S18_2870" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_2870 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_2870 Classic Cars.jpg"/>
+</record>
+<record id="S18_3685" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_3685 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_3685 Classic Cars.jpg"/>
+</record>
+<record id="S24_2972" model="product.product">
+<field name="list_price">32.1</field>
+<field name="name">S24_2972 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2972 Classic Cars.jpg"/>
+</record>
+<record id="S18_1589" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S18_1589 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_1589 Classic Cars.jpg"/>
+</record>
+<record id="S18_4933" model="product.product">
+<field name="list_price">61.29</field>
+<field name="name">S18_4933 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S18_4933 Classic Cars.jpg"/>
+</record>
+<record id="S24_1046" model="product.product">
+<field name="list_price">85.25</field>
+<field name="name">S24_1046 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1046 Classic Cars.jpg"/>
+</record>
+<record id="S24_1628" model="product.product">
+<field name="list_price">59.37</field>
+<field name="name">S24_1628 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_1628 Classic Cars.jpg"/>
+</record>
+<record id="S24_2766" model="product.product">
+<field name="list_price">78.15</field>
+<field name="name">S24_2766 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2766 Classic Cars.jpg"/>
+</record>
+<record id="S24_2887" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_2887 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_2887 Classic Cars.jpg"/>
+</record>
+<record id="S24_3191" model="product.product">
+<field name="list_price">73.62</field>
+<field name="name">S24_3191 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3191 Classic Cars.jpg"/>
+</record>
+<record id="S24_3432" model="product.product">
+<field name="list_price">100</field>
+<field name="name">S24_3432 Classic Cars</field>
+<field name="image" type="base64" file="data_mining_import/static/img/S24_3432 Classic Cars.jpg"/>
+</record>
+</odoo>

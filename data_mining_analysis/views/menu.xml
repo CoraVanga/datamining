@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<odoo>
+    <!--act window odoo-->
+    <act_window id="action_view_data_mining_show"
+        name="View Rule"
+        res_model="data.mining.show"
+        view_mode="tree,form" />
+    <act_window id="action_view_data_mining_config"
+        name="Config Rule"
+        res_model="data.mining.config"
+        view_mode="tree,form" />
+
+    <!--menu item odoo-->
+    <menuitem id="data_mining_root_menu"
+        name="Data Mining"
+        sequence="12"
+    />
+    <menuitem id="data_mining_view_rule"
+        name="View Rule"
+        sequence="12"
+        action="action_view_data_mining_show"
+        parent="data_mining_root_menu"
+    />
+    <menuitem id="data_mining_config_rule"
+        name="Config Rule"
+        sequence="10"
+        action="action_view_data_mining_config"
+        parent="data_mining_root_menu"
+    />
+</odoo>

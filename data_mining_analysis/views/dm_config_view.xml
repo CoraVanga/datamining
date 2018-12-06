@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="pos_view_rule_form" model="ir.ui.view">
+        <field name="name">Association Rule</field>
+        <field name="model">data.mining.show</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <!--<field name="rule_type"/>-->
+                        </group>
+                        <group>
+                            <!--<field name="age_type"/>-->
+                            <!--<field name="gender"/>-->
+                        </group>
+                        <group string="Product Base">
+                            <field name="product_base_ids" nolabel="1">
+                                <tree>
+                                    <field name="name"/>
+                                    <!--<field name="list_price"/>-->
+                                </tree>
+                            </field>
+                        </group>
+                        <group string="Product Recommend">
+                            <field name="product_add_ids" nolabel="1">
+                                <tree>
+                                    <field name="name"/>
+                                    <!--<field name="list_price"/>-->
+                                </tree>
+                            </field>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="pos_setting_rule_form" model="ir.ui.view">
+        <field name="name">Rule Setting</field>
+        <field name="model">data.mining.config</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button string="Run Manually" name="run_rule_manually" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options="{&quot;terminology&quot;: &quot;archive&quot;}"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="rule_type"/>
+                            <field name="min_supp"/>
+                            <field name="min_conf"/>
+                        </group>
+                        <group>
+                            <field name="interval_number"/>
+                            <field name="interval_type"/>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
