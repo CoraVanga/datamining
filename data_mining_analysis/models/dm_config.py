@@ -3,6 +3,7 @@ from odoo import api, models, fields, _
 from apyori import apriori
 from odoo.exceptions import ValidationError, UserError
 import json
+import pyfpgrowth
 
 class DMShow(models.Model):
     _name = 'data.mining.show'
@@ -13,7 +14,7 @@ class DMShow(models.Model):
     product_add_ids = fields.Many2many(comodel_name='product.product',
                                         relation='data_mining_show_add_rel',
                                         string="Product Add")
-    # rule_type = fields.Char(string='Rule type')
+    rule_type = fields.Char(string='Rule type')
     # age_type = fields.Char(string='Age Type', required=False)
     # gender = fields.Selection(string='Gender', required=False, selection=[('male', 'Male'), ('female', 'Female'),])
 
@@ -92,8 +93,15 @@ class DMConfig(models.Model):
     def run_rule_manually(self):
         for record in self:
             transactions = self.get_sale_data()
-            results = self.format_rules(list(apriori(transactions, min_support=record.min_supp, min_confidence=record.min_conf)))
-            self.update_rule(results)
+            if(record.rule_type == 'apriori' ):
+                results = self.format_rules(list(apriori(transactions, min_support=record.min_supp, min_confidence=record.min_conf)))
+                self.update_rule(results,'apriori')
+            else:
+                totalRow = len(transactions)
+                print('BEGIN RUN RULE------------------------------')
+                results = self.format_rules_fp(pyfpgrowth.generate_association_rules(pyfpgrowth.find_frequent_patterns(transactions, totalRow*record.min_supp),record.min_conf))
+                print('AFTER RUN RULE------------------------------')
+                self.update_rule(results,'fpgrowth')
             self.update_on_web()
             return {
                 'type': 'ir.actions.act_window',
@@ -126,7 +134,7 @@ class DMConfig(models.Model):
                     rules.append(rule_in_json)
         return rules
 
-    def update_rule(self,rule_list):
+    def update_rule(self,rule_list,algorithm_name):
         self.env['data.mining.show'].search([]).unlink()
         i = 0
         for record in rule_list:
@@ -134,6 +142,7 @@ class DMConfig(models.Model):
             association = self.env['data.mining.show'].create({
                 'product_base_ids': [(6, 0, rule['base'] if isinstance(rule['base'], list) else [rule['base']])],
                 'product_add_ids': [(6, 0, rule['add'] if isinstance(rule['add'], list) else [rule['add']])],
+                'rule_type': algorithm_name
             })
             i = i + 1
             s = 'RULE no ' + str(i)
@@ -161,3 +170,13 @@ class DMConfig(models.Model):
         for product in products:
             product.update({'alternative_product_ids': [(6, 0, [])],
                             'accessory_product_ids': [(6, 0, [])]})
+    # nghia
+    def format_rules_fp(self, fplist):
+        results = []
+        for key, item in fplist.iteritems() :
+            jsonlist={}
+            jsonlist['base']=list(key)
+            jsonlist['add']=list(item[0])
+            jsonlist['conf']=item[1]
+            results.append(jsonlist)
+        return results
