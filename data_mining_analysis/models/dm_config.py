@@ -23,7 +23,8 @@ class DMConfig(models.Model):
     name = fields.Char(string="Name")
     active = fields.Boolean(default=True,
                             help="If you uncheck the active field, it will disable the record rule without deleting record")
-    rule_type = fields.Selection([('apriori', 'Apriori')],
+    rule_type = fields.Selection([('apriori','Apriori'),
+                                  ('fpgrowth','Fp growth')],
                                      string='Rule Type')
     interval_number = fields.Integer(string="Interval Number", help="Repeat every x")
     interval_type = fields.Selection([('minutes', 'Minutes'),
@@ -98,9 +99,7 @@ class DMConfig(models.Model):
                 self.update_rule(results,'apriori')
             else:
                 totalRow = len(transactions)
-                print('BEGIN RUN RULE------------------------------')
                 results = self.format_rules_fp(pyfpgrowth.generate_association_rules(pyfpgrowth.find_frequent_patterns(transactions, totalRow*record.min_supp),record.min_conf))
-                print('AFTER RUN RULE------------------------------')
                 self.update_rule(results,'fpgrowth')
             self.update_on_web()
             return {
@@ -138,7 +137,7 @@ class DMConfig(models.Model):
         self.env['data.mining.show'].search([]).unlink()
         i = 0
         for record in rule_list:
-            rule = json.loads(record)
+            rule = json.loads(record) if algorithm_name == 'apriori' else record
             association = self.env['data.mining.show'].create({
                 'product_base_ids': [(6, 0, rule['base'] if isinstance(rule['base'], list) else [rule['base']])],
                 'product_add_ids': [(6, 0, rule['add'] if isinstance(rule['add'], list) else [rule['add']])],
