@@ -4,6 +4,14 @@ from apyori import apriori
 from odoo.exceptions import ValidationError, UserError
 import json
 import pyfpgrowth
+from datetime import datetime
+class DMGraph(models.Model):
+    _name = 'data.mining.graph'
+    _order = 'date_id asc'
+    name = fields.Char(string='Name')
+    date_id = fields.Char(string='Date')
+    qty_sold = fields.Float(string='Quantity sold')
+    price_total = fields.Float(string='Total Price')
 
 class DMShow(models.Model):
     _name = 'data.mining.show'
@@ -15,6 +23,7 @@ class DMShow(models.Model):
                                         relation='data_mining_show_add_rel',
                                         string="Product Add")
     rule_type = fields.Char(string='Rule type')
+    confidence = fields.Char(string='Confidence')
     # age_type = fields.Char(string='Age Type', required=False)
     # gender = fields.Selection(string='Gender', required=False, selection=[('male', 'Male'), ('female', 'Female'),])
 
@@ -112,6 +121,39 @@ class DMConfig(models.Model):
             }
 
     @api.multi
+    def get_graph_data(self):
+        self.env['data.mining.graph'].search([]).unlink()
+        sale_data = self.env['sale.order'].search([],order="date_order asc")
+        result = []
+        for line in sale_data:
+            date_buy = datetime.strptime(line.date_order,'%Y-%m-%d ''%H:%M:%S')
+            date_string = str(date_buy.year) + '-' + str(date_buy.month)
+            qty_string = line.amount_total
+            price_string = sum(x.product_uom_qty for x in line.order_line)
+            item = {
+                'date_string': date_string,
+                'qty_string': qty_string,
+                'price_string': price_string
+            }
+            flag = 0
+            for element in result:
+                if element['date_string'] == item['date_string']:
+                    element['qty_string'] = element['qty_string'] + item['qty_string']
+                    element['price_string'] = element['price_string'] + item['price_string']
+                    flag = 1
+            if(flag == 0 and item['price_string'] != 0):
+                result.append(item)
+
+        for line in result:
+            self.env['data.mining.graph'].create({
+                'name': str(line['date_string']) + ' with ' + str(line['qty_string']) + ' total quantity and ' + str(line['price_string']) + ' total price',
+                'date_id': line['date_string'],
+                'qty_sold': line['qty_string'],
+                'price_total': line['price_string'],
+            })
+        print(result)
+
+    @api.multi
     def get_sale_data(self):
         result=[]
         sale_list = self.env['sale.order'].search([])
@@ -129,7 +171,7 @@ class DMConfig(models.Model):
         for item in aprioriList:
             if(len(item.items) >= 2):
                 for rule in item.ordered_statistics:
-                    rule_in_json = json.dumps({'base': list(rule.items_base), 'add': list(rule.items_add)})
+                    rule_in_json = json.dumps({'base': list(rule.items_base), 'add': list(rule.items_add), 'conf': rule.confidence})
                     rules.append(rule_in_json)
         return rules
 
@@ -141,7 +183,8 @@ class DMConfig(models.Model):
             association = self.env['data.mining.show'].create({
                 'product_base_ids': [(6, 0, rule['base'] if isinstance(rule['base'], list) else [rule['base']])],
                 'product_add_ids': [(6, 0, rule['add'] if isinstance(rule['add'], list) else [rule['add']])],
-                'rule_type': algorithm_name
+                'rule_type': algorithm_name,
+                'confidence': rule['conf'],
             })
             i = i + 1
             s = 'RULE no ' + str(i)

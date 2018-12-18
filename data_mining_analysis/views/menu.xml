@@ -9,16 +9,27 @@
         name="Config Rule"
         res_model="data.mining.config"
         view_mode="tree,form" />
+    <act_window id="action_view_data_mining_graph"
+        name="View Graph"
+        res_model="data.mining.graph"
+        view_mode="graph,tree" />
 
     <!--menu item odoo-->
     <menuitem id="data_mining_root_menu"
         name="Data Mining"
         sequence="12"
+        web_icon="data_mining_analysis,static/description/web_icon.jpg"
     />
     <menuitem id="data_mining_view_rule"
         name="View Rule"
         sequence="12"
         action="action_view_data_mining_show"
+        parent="data_mining_root_menu"
+    />
+    <menuitem id="data_mining_view_graph"
+        name="View Graph"
+        sequence="13"
+        action="action_view_data_mining_graph"
         parent="data_mining_root_menu"
     />
     <menuitem id="data_mining_config_rule"

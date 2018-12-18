@@ -12,6 +12,7 @@
                             <field name="rule_type"/>
                         </group>
                         <group>
+                            <field name="confidence"/>
                             <!--<field name="age_type"/>-->
                             <!--<field name="gender"/>-->
                         </group>
@@ -36,7 +37,16 @@
             </form>
         </field>
     </record>
-
+    <record id="pos_view_rule_tree" model="ir.ui.view">
+        <field name="name">Association Rule Tree</field>
+        <field name="model">data.mining.show</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="confidence"/>
+            </tree>
+        </field>
+    </record>
     <record id="pos_setting_rule_form" model="ir.ui.view">
         <field name="name">Rule Setting</field>
         <field name="model">data.mining.config</field>
@@ -44,6 +54,7 @@
             <form>
                 <header>
                     <button string="Run Manually" name="run_rule_manually" type="object" class="oe_highlight"/>
+                    <button string="Compute Graph" name="get_graph_data" type="object" class="oe_highlight"/>
                 </header>
                 <sheet>
                     <div class="oe_button_box" name="button_box">
@@ -69,4 +80,37 @@
             </form>
         </field>
     </record>
+
+    <record id="association_rule_search_view" model="ir.ui.view">
+        <field name="name">Association Rule Search</field>
+        <field name="model">data.mining.show</field>
+        <field name="arch" type="xml">
+            <search string="Search Applicants">
+                <field name="product_base_ids"/>
+                <field name="product_add_ids"/>
+                <field name="confidence"/>
+           </search>
+        </field>
+    </record>
+
+    <record id="association_rule_graph_view" model="ir.ui.view">
+        <field name="name">Association Rule Graph View</field>
+        <field name="model">data.mining.graph</field>
+        <field name="arch" type="xml">
+            <graph string="Sales" type="line">
+                <field name="date_id" type="row"/>
+                <field name="qty_sold" type="measure"/>
+            </graph>
+        </field>
+    </record>
+    <!--<record id="view_order_product_graph" model="ir.ui.view">-->
+         <!--<field name="name">sale.report.graph</field>-->
+         <!--<field name="model">sale.report</field>-->
+         <!--<field name="arch" type="xml">-->
+             <!--<graph string="Sales Analysis">-->
+                 <!--<field name="date" type="row"/>-->
+                 <!--<field name="price_subtotal" type="measure"/>-->
+             <!--</graph>-->
+         <!--</field>-->
+    <!--</record>-->
 </odoo>
